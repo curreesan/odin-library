@@ -18,3 +18,19 @@
   width: 200px;
   background-color: #f9f9f9;
 }
+
+#book-form {
+  margin: 20px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 300px;
+}
+#book-form label, #book-form input {
+  display: block;
+  margin: 5px 0;
+}
+#new-book-btn {
+  margin: 10px;
+  padding: 5px 10px;
+}
