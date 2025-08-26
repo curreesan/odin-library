@@ -1,3 +1,20 @@
-.connected {
-    color: green;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.library-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.book-card {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 5px;
+  width: 200px;
+  background-color: #f9f9f9;
 }
